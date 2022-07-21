@@ -13,7 +13,7 @@ import java.util.List;
  * @date: 2022/7/19 18:22
  * @description:
  */
-@Service
+@Service(timeout = 5000)
 @Component
 public class UserServiceImpl implements UserService {
 
