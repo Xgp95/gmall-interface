@@ -7,13 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="gmall-interface" />
-        <module name="provider" />
         <module name="consummer" />
+        <module name="provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="consummer" target="1.8" />
       <module name="gmall-interface" target="1.8" />
+      <module name="mybatisx" target="1.8" />
       <module name="provider" target="1.8" />
     </bytecodeTargetLevel>
   </component>
